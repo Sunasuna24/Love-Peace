@@ -1,0 +1,298 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ここからはheader */
+
+header {
+  height: 69px;
+}
+
+.header-container {
+  margin: 0 20px;
+  height: 69px;
+  position: relative;
+}
+
+.header-logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.header-logo h1 {
+  font-size: 46px;
+  font-family: "Cambria Math";
+  vertical-align: middle;
+}
+
+.header-list {
+  float: right;
+  margin-right: 50px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  height: 69px;
+  padding: 0 6.5px;
+  margin-left: 50px;
+}
+
+.header-list a {
+  color: black;
+}
+
+
+/* ここからはcaption */
+
+.caption {
+  height: 500px;
+  position: relative;
+  background-image: url(./img/チューリップ.jpg);
+  background-size: cover;
+}
+
+.caption_container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption_container h1 {
+  font-family: "Cambria Math";
+  font-size: 70px;
+}
+
+.caption_container h2 {
+
+}
+
+.caption_container h3 {
+
+}
+
+
+/* ここからはone_phrase */
+.one_phrase {
+  height: 280px;
+  font-family: "Yu Mincho Light";
+  position: relative;
+}
+
+.one_phrase_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.one_phrase_container h1 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.one_phrase_container h2 {
+  font-size: 17px;
+}
+
+/* ここからはexplain */
+
+.explain {
+  background-image: url(./img/親友.jpg);
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.explain_container {
+  position: absolute;
+  top: 49.98%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 450px;
+}
+
+.explain_txt {
+  width: 400px;
+  height: 449.5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.explain_txt p {
+  color: white;
+  font-family: "Yu Gothic";
+  padding: 20px;
+}
+
+.first {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+
+/* ここからはmessage */
+
+.message_intro {
+  height: 200px;
+  position: relative;
+}
+
+.message_intro_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.message_intro_container h1 {
+  font-family: "Yu Mincho Light";
+}
+
+
+.message1 {
+  height: 700px;
+}
+
+.message1_container {
+  height: 500px;
+  padding: 100px 0;
+  position: relative;
+}
+
+.comment1_container {
+  font-family: "Yu Mincho Light";
+  height: 450px;
+  width: 500px;
+  margin-left: 150px;
+  padding: 25px 0;
+  vertical-align: middle;
+}
+
+.comment1_container h1 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.img1_box {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+.message2 {
+  height: 700px;
+}
+
+.message2_container {
+  height: 500px;
+  padding: 100px 0;
+  position: relative;
+}
+
+.img2_box {
+  margin-left: 180px;
+}
+
+.comment2_container {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: "Yu Mincho Light";
+  height: 450px;
+  width: 500px;
+  padding: 25px 0;
+}
+
+.comment2_container h1 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.comment2_container p {
+  text-align: center;
+}
+
+/* ここからはproduct */
+
+/* .product {
+  height: 1000px;
+  background-color: skyblue;
+} */
+
+
+/* ここからはfooter */
+
+footer {
+  height: 210px;
+  background-color: #0b0013;
+}
+
+.footer_container {
+  height: 210px;
+}
+
+.footer_list {
+  height: 80px;
+  position: relative;
+}
+
+.footer_list_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_list ul {
+  text-align: center;
+}
+
+.footer_list li {
+  display: inline-block;
+  color: white;
+}
+
+.footer_list a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_logo_container {
+  text-align: center;
+}
+
+.footer_logo_container h1 {
+  font-family: "Cambria Math";
+  font-size: 45px;
+}
+
+.copy_right {
+  margin-top: 25px;
+}
+
+.footer_logo_container a {
+  text-decoration: none;
+  color: white;
+}
+
+.copy_right_container p {
+  text-align: center;
+  color: white;
+}
