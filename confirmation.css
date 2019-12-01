@@ -1,0 +1,130 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ここからはheader */
+header {
+  height: 69px;
+}
+
+.header-container {
+  margin: 0 20px;
+  height: 69px;
+  position: relative;
+}
+
+.header-logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.header-logo h1 {
+  font-size: 46px;
+  font-family: "Cambria Math";
+  vertical-align: middle;
+}
+
+.header-list {
+  float: right;
+  margin-right: 50px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  height: 69px;
+  padding: 0 6.5px;
+  margin-left: 50px;
+}
+
+.header-list a {
+  color: black;
+}
+
+
+
+/* ここからはfooter */
+footer {
+  height: 210px;
+  background-color: #0b0013;
+}
+
+.footer_container {
+  height: 210px;
+}
+
+.footer_list {
+  height: 80px;
+  position: relative;
+}
+
+.footer_list_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_list ul {
+  text-align: center;
+}
+
+.footer_list li {
+  display: inline-block;
+  color: white;
+}
+
+.footer_list a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_logo_container {
+  text-align: center;
+}
+
+.footer_logo_container h1 {
+  font-family: "Cambria Math";
+  font-size: 45px;
+}
+
+.copy_right {
+  margin-top: 25px;
+}
+
+.footer_logo_container a {
+  text-decoration: none;
+  color: white;
+}
+
+.copy_right_container p {
+  text-align: center;
+  color: white;
+}
+
+.privateInfo {
+  /* text-decoration: none; */
+  color: black;
+}
+
+
+
+/* 以下、main */
+main {
+  background-color: #f4f4f4;
+  padding: 100px 0;
+}
+
+main p {
+  text-align: center;
+}

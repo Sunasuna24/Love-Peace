@@ -1,0 +1,200 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ここからはheader */
+header {
+  height: 69px;
+}
+
+.header-container {
+  margin: 0 20px;
+  height: 69px;
+  position: relative;
+}
+
+.header-logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.header-logo h1 {
+  font-size: 46px;
+  font-family: "Cambria Math";
+  vertical-align: middle;
+}
+
+.header-list {
+  float: right;
+  margin-right: 50px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  height: 69px;
+  padding: 0 6.5px;
+  margin-left: 50px;
+}
+
+.header-list a {
+  color: black;
+}
+
+
+
+/* ここからはfooter */
+footer {
+  height: 210px;
+  background-color: #0b0013;
+}
+
+.footer_container {
+  height: 210px;
+}
+
+.footer_list {
+  height: 80px;
+  position: relative;
+}
+
+.footer_list_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_list ul {
+  text-align: center;
+}
+
+.footer_list li {
+  display: inline-block;
+  color: white;
+}
+
+.footer_list a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_logo_container {
+  text-align: center;
+}
+
+.footer_logo_container h1 {
+  font-family: "Cambria Math";
+  font-size: 45px;
+}
+
+.copy_right {
+  margin-top: 25px;
+}
+
+.footer_logo_container a {
+  text-decoration: none;
+  color: white;
+}
+
+.copy_right_container p {
+  text-align: center;
+  color: white;
+}
+
+.privateInfo {
+  /* text-decoration: none; */
+  color: black;
+}
+
+
+
+/* 以下、main */
+main {
+  background-color: #f4f4f4;
+}
+
+.mainContact {
+  padding: 100px 0;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.contactForm {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 0 80px;
+}
+
+table.outside tbody tr th {
+  margin: 15px 0;
+}
+
+.contactSend th {
+  float: left;
+}
+
+.contactSend td {
+  margin-left: 135px;
+}
+
+.contactSend td input {
+  padding: 5px 2px;
+  border: none;
+}
+
+.contactSend tr td p {
+  padding-bottom: 10px;
+}
+
+.contactSend tr td p label {
+  float: left;
+}
+
+.contactSend tr td p input:not(.add4), .contactSend tr td p select {
+  margin-left: 100px;
+}
+
+.contactSend td textarea {
+  border: none;
+}
+
+.send {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #26a69b;/*背景色*/
+  color: #FFF;/*文字色*/
+  font-size: 1em;/*文字サイズ*/
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.05em;/*字間*/
+  padding: 0.2em 1em;/*ボタン内の余白*/
+  border-radius: 3px;/*角の丸み*/
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s ease-out;/*変化を緩やかに*/
+  padding: 25px 60px;
+}
